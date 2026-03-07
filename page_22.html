@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Overrides | Critical Web Design</title>
+
+    <!-- font links -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" 
+	rel="stylesheet">
+
+    <!-- import bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- override bootstrap styles *after* importing above -->
+    <style>
+    .root {
+        --charcoal-blue: #233d4dff;
+	    --pumpkin-spice: #fe7f2dff;
+	    --golden-pollen: #fcca46ff;
+	    --muted-olive: #a1c181ff;
+	    --seagrass: #619b8aff;
+    }
+    body {
+        background-color: rgb(9, 37, 53);
+        margin-inline: 2%;
+    }
+    .blue-box {
+        color: #fe7f2dff;
+        font-size: 150%;
+    }
+    .square-box {
+        border: 2px; 
+        padding: 5px; 
+        border-color: #fe7f2dff;
+    }
+    .orange-box {
+        color: #fe7f2dff;
+        font-family: Aboreto;
+        font-size: 200%;
+    }
+    .pink-box {
+        color: #fcca46ff;
+        font-size: 150%; 
+    }
+    .img-fluid {
+        width: 35%; 
+        height: 70%;
+    }
+    .custom-row {
+      padding-top: 5px;   /* default is ~15px */
+      padding-bottom: 5px;
+    }
+    a {
+        text-decoration: none;
+        font-family: Aboreto;
+        color: #619b8aff;
+    }
+    .italic {
+        font-family: Aboreto;
+        font-style: italic;
+    }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col mt-5"></div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col text-center pink-box d-flex 
+            justify-content-center align-items-center">
+                <button type="button" class="btn btn-outline-warning">
+                    <a href="page_27.html">Tell Me More About Butterflies</a>
+                </button> 
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 col-lg-4 blue-box d-flex 
+            justify-content-center align-items-center">
+                ⊹⊱✫⊰⊹
+            </div>
+            <div class="col-md-6 col-lg-4 text-center orange-box square-box d-flex 
+            justify-content-center align-items-center mt-5">
+                <button type="button" class="btn btn-outline-warning">
+                    <a href="page_23.html">Black Swallowtail</a>
+                </button>  
+            </div>
+            <div class="col-md-6 col-lg-4 text-center blue-box d-flex 
+            justify-content-center align-items-center">
+                ⊹⊱✫⊰⊹
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 col-lg-4 blue-box d-flex 
+            justify-content-center align-items-center">
+                ⊹⊱✫⊰⊹
+            </div>
+            <div class="col-md-6 col-lg-4 text-center orange-box square-box d-flex 
+            justify-content-center align-items-center mt-5">
+                <button type="button" class="btn btn-outline-warning">
+                    <a href="page_24.html">Blue Morpho</a>
+                </button>  
+            </div>
+            <div class="col-md-6 col-lg-4 text-center blue-box d-flex 
+            justify-content-center align-items-center">
+                ⊹⊱✫⊰⊹
+            </div>
+        </div>
+
+         <div class="row">
+            <div class="col-md-6 col-lg-4 blue-box d-flex 
+            justify-content-center align-items-center">
+                ⊹⊱✫⊰⊹
+            </div>
+            <div class="col-md-6 col-lg-4 text-center orange-box square-box d-flex 
+            justify-content-center align-items-center mt-5">
+                <button type="button" class="btn btn-outline-warning">
+                    <a href="page_25.html">Monarch</a>
+                </button>  
+            </div>
+            <div class="col-md-6 col-lg-4 text-center blue-box d-flex 
+            justify-content-center align-items-center">
+                ⊹⊱✫⊰⊹
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 col-lg-4 blue-box d-flex 
+            justify-content-center align-items-center">
+                ⊹⊱✫⊰⊹
+            </div>
+            <div class="col-md-6 col-lg-4 text-center orange-box square-box d-flex 
+            justify-content-center align-items-center mt-5">
+                <button type="button" class="btn btn-outline-warning">
+                    <a href="page_26.html">Painted Lady</a>
+                </button>  
+            </div>
+            <div class="col-md-6 col-lg-4 text-center blue-box d-flex 
+            justify-content-center align-items-center">
+                ⊹⊱✫⊰⊹
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col text-center pink-box d-flex 
+            justify-content-center align-items-center">
+                <button type="button" class="btn btn-outline-warning">
+                    <a href="page_21.html">Back</a>
+                </button> 
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+
+</body>
+</html>
